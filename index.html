@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">        
+    </head>
+    <body>
+            <div class="cont1 cont-flex">
+             <div>
+                <h3>HOME</h3>
+               <p id="leadh">Draw</p>
+                <p id="scoreh">0</p>
+                
+                <div class="btns">
+                    <button id="btn1" onclick="add1h()">+1</button>
+                    <button id="btn2" onclick="add2h()">+2</button>
+                    <button id="btn3" onclick="add3h()">+3</button>
+                </div>
+            </div>
+            <div class="cont-col">
+            <img src="https://phantom-marca.unidadeditorial.es/ee46d7a1c09b447117f8e83c6e131f31/resize/1320/f/jpg/assets/multimedia/imagenes/2022/02/02/16437899001758.jpg">
+                <div class="cd-timer">
+                    <div id="timer">20:00</div>
+  <button id="start-btn" onclick="startTimer()">Start</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+               <p id="leadv">Draw</p>
+                <p id="scorev">0</p>
+                
+                 <div class="btns">
+                    <button id="btn1" onclick="add1v()">+1</button>
+                    <button id="btn2" onclick="add2v()">+2</button>
+                    <button id="btn3" onclick="add3v()">+3</button>
+                    </div>
+                </div>
+             </div>
+            <div class="cont2 cont-flex">
+            <div id="options">
+                <fieldset>
+                    <legend>Menu</legend>
+                <button id="new-game" onclick="reset()">New Game</button>
+                </fieldset>
+                </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

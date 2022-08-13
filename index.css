@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background: url(https://thumbs.dreamstime.com/z/professional-basketball-court-arena-backgrounds-background-169169050.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h3 {
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cd-timer {
+    width:150px;
+    margin-top:25px;
+}
+#timer {
+    text-align:center;
+}
+#start-btn {
+    width:150px;
+    border-radius: 30px;
+}
+img {
+    width:150px;
+}
+.cont-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.cont-col {
+    display:flex;
+    flex-direction: column;
+}
+.btns {
+    display:flex;
+    justify-content: center;
+    margin-bottom:1.5em;
+}
+#btn1,#btn2,#btn3 {
+    background-color: #1B244A;
+    margin:0.1em;
+    color:white;
+    border-color: white;
+}
+.cont1{
+   width:90%;
+   margin:0 auto;
+   padding:0.5em;
+   background-color: #1B244A;
+   border-radius:10px;
+   border:1px solid white;
+}
+.cont2{
+    
+   
+}
+#scoreh,#scorev,#timer {
+    width:100%;
+    background-color: black;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    color:red;
+    text-align: center;
+    font-size:40px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+                                                
+}
+#leadh,#leadv {
+     width:100%;
+    color:red;
+    text-align: center;
+    font-size:10px;
+}
